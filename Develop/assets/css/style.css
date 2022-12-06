@@ -7,12 +7,12 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* Not optimized for resolution smaller than 1094, header will slip to margin */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
+    color: #ffffff;    
 }
 
 .header h1 {
@@ -23,34 +23,26 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/*Set font family & spaced with margin */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
 
+}
 
 .header nav ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 30px; 
 }
-
+/* Given links now have colour rather than standared blue underline */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
-p {
-    font-size: 16px;
-}
-
-header figure {
-    display: flex;
- }
-
+/*Main image fixed with height set to 1200px*/
 .hero {
     height: 1200px;
     width: 100%;
@@ -58,6 +50,30 @@ header figure {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+/* Main content for the page seperated into thirds with floating images */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content img {
+    max-height: 200px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .float-left {
@@ -68,12 +84,6 @@ header figure {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 .benefits {
@@ -94,38 +104,8 @@ header figure {
 
 .benefits img {
     display: block;
-    margin: 10px;
+    margin: 10px auto;
     max-width: 150px;
-}
-
-section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-
-}
-
-.content img {
-    max-height: 200px;
-    
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .footer {
@@ -135,6 +115,6 @@ section {
     text-align: center;
 }
 
-.footer h2 {
+h4 {
     font-size: 20px;
 }
