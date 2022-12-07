@@ -45,7 +45,7 @@ a {
 /*Main image set to page width with height set to 1000px, larger resolutions will lose top of image*/
 .hero {
     height: 800px;
-    min-width: 100%;
+    width: 100%;
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
