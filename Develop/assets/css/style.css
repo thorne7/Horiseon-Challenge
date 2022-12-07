@@ -14,12 +14,12 @@ body {
     background-color: #2a607c;
     color: #ffffff;    
 }
-
+/* Horiseon displayed top left and seperated (see .header h1 .seo) */ 
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* colouring only 'seo' of Horiseon */
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -32,26 +32,27 @@ body {
     font-size: 20px;
 
 }
-
+/* Pages top most headings displayed to the right and spaced */
 .header nav ul li {
     display: inline-block;
-    margin-left: 30px; 
+    margin-left: 100px; 
 }
 /* Given links now have colour rather than standared blue underline */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-/*Main image fixed with height set to 1200px*/
+/*Main image set to page width with height set to 1000px, larger resolutions will lose top of image*/
 .hero {
-    height: 1200px;
-    width: 100%;
+    height: 800px;
+    min-width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
-/* Main content for the page seperated into thirds with floating images */
+/* Main content for the page seperated into thirds with floating images
+   Consolidated the 'id's within main element into .content */
 .content {
     width: 75%;
     display: inline-block;
@@ -61,7 +62,7 @@ a {
 .content img {
     max-height: 200px;
 }
-
+/* stylings for text and spacing of pages main information */
 section {
     margin-bottom: 20px;
     padding: 50px;
@@ -70,12 +71,12 @@ section {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* headings for main content */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Floating images class within 'main'/'section to give page natural feel*/ 
 .float-left {
     float: left;
     margin-right: 25px;
@@ -85,7 +86,7 @@ h2 {
     float: right;
     margin-left: 25px;
 }
-
+/* Consolidated classes within 'aside' into one css selector */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -96,12 +97,12 @@ h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* also consolidated all h3 elements */
 .benefits h3 {
     margin-top: 40px;
     text-align: center;
 }
-
+/* also consolidated all '.benefits/img' elements */
 .benefits img {
     display: block;
     margin: 10px auto;
