@@ -5,11 +5,11 @@
 -For my first challenge was an On-The-Job ticket. This required me to modify & refactor some existing code.
 A marketing agency has hired me to make thier site more accessible to the public and others with disabilities.
 
--When inpecting the code a few links of the site were not funtioning properly. The HTML required adding & changing the semantic elements as most were all classed as '<div>'. 
+-When inpecting the code a few links of the site were not funtioning properly. The HTML required adding & changing the semantic elements as most were all classed as 'div'. 
 
 -The title was changed to something more suitable and clear. The CSS selectors were conolidated methodically and reaaranged to keep the flow logical with CSS & HTML structure.
 
--Additionally, comments were added to the CSS explaining some of the selectors purpose and functions.
+-Additionally, comments were added to the CSS explaining some of the selectors purpose and functions. I also left the footer visable even though the 'demo.png' did not show it. I did this due to the user story and the mention of accessibility (screen readers etc).
 
 -While working on this site, I learnt that though there may be a solution to an issue it may not be the best for the current problem. Searching for multipule solutions to a problem helps to ensure you find the appropriate one.
 
