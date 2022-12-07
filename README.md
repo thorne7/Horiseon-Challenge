@@ -21,7 +21,7 @@ A marketing agency has hired me to make thier site more accessible to the public
 
 ## Usage 
 
-![Alt text](../Assets/myscreenshot.png)
+![Alt text](/Assets/images/myscreenshot.png)
 
 
 ## Credits
